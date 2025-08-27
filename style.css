@@ -1,0 +1,416 @@
+/* reset and common code starts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+}
+.display-flex {
+    display: flex;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white; 
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+header{
+    width: 100%;
+    height: 730px;
+    background-color: rgba(17, 17, 17, 1);
+}
+/* reset and common code ends */
+
+
+/* navbar section starts here */
+
+
+.navbar {
+    padding: 15px 40px;
+}
+
+.container {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo-title {
+    color: #E6533C;
+    font-family: Inter, sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 120%;
+    margin-left: 190px;
+    margin-top: 60px;
+}
+
+/* nav links */
+.nav-links {
+    gap: 20px;
+    align-items: center;
+}
+
+/*  Home button */
+.btn {
+    background: #E6533C;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #c4452f;
+}
+
+/* hover effect for link */
+.nav-links li a:hover {
+    color: #E6533C;
+}
+.healthy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.healthy-title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 78px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+    width: 520px;
+    height: 280px;
+    margin-left: 150px;
+    margin-top: 95px;
+}
+.shape-sty{
+    font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.healthy-desc{
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.5px;
+    margin: 30px auto 30px;
+    margin-left: 150px;
+    width: 520px;
+    height: 50px;
+}
+
+.healthy-btn{
+    background-color: #E6533C;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    width: 225px;
+    height: 55px;
+    margin-left: 150px;
+    margin-top: 28px;
+    border: none;
+    border-radius: 50px;
+}
+.healthy-btn-2{
+    width: 225px;
+    height: 55px;
+    margin-left: 15px;
+    color: #FFF;
+    font-size: 18px;
+    border: 2px solid #fff;
+    /* border: none; */
+    border-radius: 50px;
+    background-color:  rgba(17, 17, 17, 1);
+}
+
+.imag-2{
+    margin-right: 200px;
+}
+
+/* #badage{
+    width: 206px;
+    height: 96px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(10px);
+}
+#number{
+    color: var(--Text-1, #FAFAF9);
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px; /* 100% */
+    /* letter-spacing: 0.3px;
+    margin-top: 20px;
+}
+#video{
+    color: var(--Text-2, rgba(239, 237, 232, 0.65));
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.5px;
+} */ 
+
+
+
+.habits{
+    display: flex;
+    width: 100%;
+    padding-bottom: 1px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background: #000;
+    text-align: center;
+}
+
+
+.habit-title{
+    margin-top: 100px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+}
+.habit-desc{
+    width: 670px;
+    height: 48px;
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.3px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background: #000;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 230px;
+    text-align: center;
+}
+.card-title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    margin-top: 30px;
+}
+.card-desc{
+    width: 230px;
+    height: 36px;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: 0.3px;
+}
+.images{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+
+.run-section{
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 330px;
+    background: #222;
+    margin-left: 270px;
+}
+.run-title{
+    width: 440px;
+    height: 115px;
+    margin-top: 41px;
+    margin-left: 54px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+}
+.run-desc{
+    width: 440px;
+    height: 72px;
+    margin-left: 54px;
+    margin-top: 14px;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.3px;
+}
+.run-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: auto 30px;
+}
+.run-btn{
+    display: flex;
+    width: 200px;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 42px;
+    background: #E6533C;    
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    margin-left: 54px;
+    margin-top: 24px;
+}
+
+
+.bmi-title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+    margin-top: 100px;
+    margin-left: 270px;
+}
+.bmi-desc{
+    width: 671px;
+    height: 42px;
+    margin-left: 270px;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.3px;
+}
+
+.bmi-calc{
+    width: 1520px;
+    height: 420px;
+    background: #222222;
+}
+
+
+.bmi-calc {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background: #1e1e1e;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 50px auto;
+  gap: 50px;
+}
+
+.bmi-chart, .bmi-form {
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  color: #fff;
+}
+
+.bmi-chart table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.bmi-chart th, .bmi-chart td {
+  border: 1px solid #444;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.bmi-form h3 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+.bmi-form p {
+  font-size: 14px;
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 15px;
+}
+
+
+
+.form-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.form-group input, 
+.form-group select {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background: #333;
+  color: #fff;
+}
+.calc-btn {
+  background: #E6533C;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.calc-btn:hover {
+  background: #c4452f;
+}
+#bmi-result {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #E6533C;
+}
