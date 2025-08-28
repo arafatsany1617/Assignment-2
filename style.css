@@ -514,3 +514,189 @@ header{
     line-height: 24px;
     letter-spacing: 0.3px;
 }
+
+
+
+@media (max-width: 600px) {
+
+  /* Navbar */
+  .nav-links {
+    display: none;
+  }
+
+  .logo-title {
+    font-size: 28px;
+    margin: 10px auto;
+  }
+
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Hero Section */
+  .healthy {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .healthy-title {
+    font-size: 32px;
+    width: auto;
+    margin: 20px auto;
+  }
+
+  .healthy-desc {
+    width: auto;
+    margin: 10px auto;
+    font-size: 14px;
+  }
+
+  .healthy-btn,
+  .healthy-btn-2 {
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .imag-2 {
+    margin: 20px auto;
+    width: 90%;
+    height: auto;
+  }
+
+  /* Habits */
+  .habit-title {
+    font-size: 28px;
+  }
+
+  .habit-desc {
+    width: 90%;
+    font-size: 13px;
+  }
+
+  /* Cards */
+  .cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card {
+    width: 90%;
+    margin: auto;
+  }
+
+  .card-desc {
+    width: auto;
+  }
+
+  /* Run Section */
+  .run-section {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .run-title,
+  .run-desc {
+    width: auto;
+    margin: 10px auto;
+    font-size: 16px;
+  }
+
+  .run-img {
+    width: 100%;
+    height: auto;
+    margin: 15px auto 0;
+  }
+
+  .run-btn {
+    margin: 15px auto;
+    width: 90%;
+  }
+
+  /* BMI Section */
+  .bmi-title {
+    font-size: 28px;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .bmi-desc {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .bmi-calc {
+    flex-direction: column;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    height: auto;
+  }
+
+  .bmi-chart,
+  .bmi-form {
+    width: 100%;
+  }
+
+  /* Team Section */
+  .teams {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  .team-members {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .team-members img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .team-title {
+    font-size: 28px;
+  }
+
+  /* Footer */
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .fitness-title {
+    font-size: 32px;
+    margin: 0;
+  }
+
+  .fitness-desc {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .get-start-title {
+    font-size: 24px;
+  }
+
+  .get-list {
+    font-size: 16px;
+  }
+}
